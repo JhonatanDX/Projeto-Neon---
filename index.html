@@ -65,7 +65,7 @@
         </div>
     </section>
 
-    <!-- <section class="s-card-neon">
+    <section class="s-card-neon">
         <div class="container">
             <div class="left-area">
                 <div class="ilustration-mockup">
@@ -147,7 +147,7 @@
         </div>
     </section>
 
-    <section class="s-depoimentos">
+<section class="s-depoimentos">
         <div class="container">
             <div class="top">  
                 <h2><span>Prático, fácil, moderno</span>Você resolve tudo sem estresse 😊</h2>
@@ -253,7 +253,7 @@
         </div>
     </section>
 
-    <footer>
+    <!-- <footer>
         <div class="container">
             <div class="top">
                 <img src="./images/logo.svg" alt="">
@@ -381,6 +381,28 @@
             el: ".s-depoimentos .top .swiper-pagination",
             clickable: true,
           },
+          breakpoints: {
+            280: {
+                slidesPerView: 1,
+                spaceBetween: 16,
+            },
+            320: {
+                slidesPerView: 1.2,
+                spaceBetween: 16,
+            },
+            520: {
+                slidesPerView: 2,
+                spaceBetween: 16,
+            },
+            800: {
+                slidesPerView: 2.5,
+                spaceBetween: 16,
+            },
+            1200: {
+                slidesPerView: 3,
+                spaceBetween: 32,
+            }
+          }
         });
       </script>
 </body>
