@@ -21,9 +21,6 @@ footer {
                 align-items: center;
                 margin-left: 3rem;
                 gap: 3rem;
-                li {
-
-                }
             }
         }
     }
@@ -109,6 +106,109 @@ footer {
             line-height: 150%;
             color: white;
             opacity: 0.8;
+        }
+    }
+    @include responsive(1050px) {
+        .main {
+            nav {
+                max-width: 76rem;
+            }
+        }
+    }
+    @include responsive(991px) {
+        .main {
+            width: 100%;
+            position: relative;
+            flex-direction: column;
+            align-items: flex-start;
+            padding-bottom: 3.6rem;
+            nav {
+                width: 100%;
+                flex-wrap: wrap;
+                justify-content: flex-start;
+                .item {
+                    width: 33%;
+                    margin-bottom: 5rem;
+                }
+            }
+            .btns {
+                position: absolute;
+                bottom: 16rem;
+                right: 0;
+            }
+        }
+    }
+    @include responsive(600px) {
+        .main {
+            padding-bottom: 0;
+            margin-bottom: 0;
+            .btns {
+                max-width: 25rem;
+                bottom: 10rem;
+                button {
+                    img {
+                        display: none;
+                    }
+                    .info {
+                        margin-left: 0;
+                    }
+                }
+            }
+        }
+    }
+    @include responsive(480px) {
+        .top {
+            flex-direction: column;
+            align-items: center;
+            padding-bottom: 4.3rem;
+            margin-bottom: 5.2rem;
+            .share {
+                width: 100%;
+                flex-direction: column;
+                margin-top: 3.2rem;
+                ul {
+                    width: 80%;
+                    justify-content: space-around;
+                    margin-left: 0;
+                    margin-top: 3.2rem;
+                }
+            }
+        }
+        .main {
+            nav {
+                .item {
+                    width: 50%;
+                    &:last-child {
+                        margin-bottom: 0px;
+                    }
+                }
+            }
+            .btns {
+                bottom: 0;
+                position: relative;
+                max-width: 100%;
+                button {
+                    padding-left: 0;
+                    justify-content: center;
+                    .info {
+                        span, strong {
+                            display: block;
+                            text-align: center;
+                        }
+                    }
+                }
+            }
+        }
+        .msg {
+            flex-direction: column;
+            text-align: center;
+            .icon {
+                width: 100%;
+            }
+            p {
+                margin-left: 0;
+            }
+            
         }
     }
 }

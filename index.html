@@ -1,62 +1,68 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+    <link rel="shortcut icon" href="./images/icon-neon.svg" type="image/x-icon">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Poppins:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="./css/main.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
     <title>Projeto - NEON</title>
 </head>
+
 <body>
     <header>
         <div class="container">
             <a href="">
                 <img src="./images/logo.svg" class="logo" alt="">
             </a>
-                <nav>
-                    <ul>
-                        <li><a href="">Produtos Neon</a></li>
-                        <li><a href="">Conta digital PJ</a></li>
-                        <li><a href="">Quem somos</a></li>
-                        <li><a href="">Blog</a></li>
-                        <li><a href="">Ajuda</a></li>
-                    </ul>
-                    <button class="btn-secundary white">Abra sua conta digital</button>
-                    <button class="btn-mobile"><img src="./images/btn-mobile.svg" alt=""></button>
-                </nav>
+            <nav>
+                <ul>
+                    <li><a href="">Produtos Neon</a></li>
+                    <li><a href="">Conta digital PJ</a></li>
+                    <li><a href="">Quem somos</a></li>
+                    <li><a href="">Blog</a></li>
+                    <li><a href="">Ajuda</a></li>
+                </ul>
+                <button class="btn-secundary white">Abra sua conta digital</button>
+                <button class="btn-mobile"><img src="./images/btn-mobile.svg" alt=""></button>
+            </nav>
         </div>
     </header>
 
     <section class="s-hero">
         <div class="container">
-            <div class="text">
+            <div class="text" data-aos="fade-right">
                 <h3>Abra sua conta, é só baixar o app!</h3>
                 <h1>A conta digital certa pra cuidar bem do seu dinheiro</h1>
                 <button class="btn-primary">Abra sua conta digital</button>
                 <ul>
                     <li>
                         <div class="icon"><img src="./images/icon-anuidade.svg" alt=""></div>
-                        <span>Cartão sem<br/> anuidade</span>
+                        <span>Cartão sem<br /> anuidade</span>
                     </li>
                     <li>
                         <div class="icon"><img src="./images/icon-conta-digital.svg" alt=""></div>
-                        <span>Conta digital<br/> 100% grátis</span>
+                        <span>Conta digital<br /> 100% grátis</span>
                     </li>
                     <li>
                         <div class="icon"><img src="./images/icon-dinheiro.svg" alt=""></div>
-                        <span>Seu dinheiro<br/> rendendo mais</span>
+                        <span>Seu dinheiro<br /> rendendo mais</span>
                     </li>
                 </ul>
             </div>
             <div class="area-image">
-                <h2>Banco 100% digital</h2>
-                <div class="image">
+                <h2 data-aos="fade-left">Banco 100% digital</h2>
+                <div class="image" data-aos="zoom-in">
                     <img src="./images/card-neon-frnt.png" class="card-front" alt="Cartão de crédito">
                     <img src="./images/card-neon-back.png" class="card-back" alt="Cartão de crédito">
                     <img src="./images/circle-cards-neon.svg" class="circle" alt="Efeito de circulo">
@@ -69,10 +75,11 @@
         <div class="container">
             <div class="left-area">
                 <div class="ilustration-mockup">
-                    <img src="./images/circle-mockup.svg" class="circle-mockup" alt="circulo decorativo para o mockup do celular">
-                    <img src="./images/mockup.svg" class="mockup" alt="mockup de um celular">
+                    <img src="./images/circle-mockup.svg" class="circle-mockup"
+                        alt="circulo decorativo para o mockup do celular" data-aos="fade-left">
+                    <img src="./images/mockup.svg" class="mockup" alt="mockup de um celular" data-aos="flip-right">
                 </div>
-                <div class="text">
+                <div class="text" data-aos="fade-up">
                     <div class="icon">
                         <img src="./images/icon-neon.svg" alt="Icone do banco neon">
                     </div>
@@ -95,7 +102,7 @@
                 </div>
             </div>
             <div class="right-area">
-                <div class="main-text">
+                <div class="main-text" data-aos="fade-left">
                     <h2>Resolva sua vida direto pelo app Neon!</h2>
                     <ul>
                         <li>
@@ -131,7 +138,7 @@
                     </ul>
                     <a href="" class="btn">Conheça outros produtos</a>
                 </div>
-                <div class="box-card">
+                <div class="box-card" data-aos="fade-left">
                     <div class="text">
                         <h2>Neon Pejota</h2>
                         <h3>Contas digitais PJ gratuitas para decolar seu negócio!</h3>
@@ -147,13 +154,13 @@
         </div>
     </section>
 
-<section class="s-depoimentos">
+    <section class="s-depoimentos">
         <div class="container">
-            <div class="top">  
+            <div class="top" data-aos="fade-right">
                 <h2><span>Prático, fácil, moderno</span>Você resolve tudo sem estresse 😊</h2>
                 <div class="swiper-pagination"></div>
             </div>
-            <div class="slide-depoimentos">
+            <div class="slide-depoimentos" data-aos="fade-up">
                 <div class="swiper-wrapper">
 
                     <div class="swiper-slide">
@@ -162,7 +169,8 @@
                                 <strong>@kleriene18</strong>
                                 <img src="images/icon-twiiter.svg" alt="Icone do Twitter">
                             </div>
-                            <p>Eu uso o Neon pra render o pouquinho que eu tenho. Como disse minha amiga Bruna, um dia eu abro o app de novo e PA: tô rica.</p>
+                            <p>Eu uso o Neon pra render o pouquinho que eu tenho. Como disse minha amiga Bruna, um dia
+                                eu abro o app de novo e PA: tô rica.</p>
                         </div>
                     </div>
 
@@ -172,7 +180,8 @@
                                 <strong>@mzltweet</strong>
                                 <img src="images/icon-twiiter.svg" alt="Icone do Twitter">
                             </div>
-                            <p>Só por ter um cartão virtual com bloqueio fácil no app, já ganha e muito na segurançã pro cliente.</p>
+                            <p>Só por ter um cartão virtual com bloqueio fácil no app, já ganha e muito na segurançã pro
+                                cliente.</p>
                         </div>
                     </div>
 
@@ -182,27 +191,30 @@
                                 <strong>@marciogurka</strong>
                                 <img src="images/icon-twiiter.svg" alt="Icone do Twitter">
                             </div>
-                            <p>Valeu @banconenon! Linda embalagem e o cartão tbm é lindo! Muito amor por esse banco #bancoNeon</p>
+                            <p>Valeu @banconenon! Linda embalagem e o cartão tbm é lindo! Muito amor por esse banco
+                                #bancoNeon</p>
                         </div>
                     </div>
-    
+
                     <div class="swiper-slide">
                         <div class="card-depoimento">
                             <div class="user">
                                 <strong>@kleriene18</strong>
                                 <img src="images/icon-twiiter.svg" alt="Icone do Twitter">
                             </div>
-                            <p>Eu uso o Neon pra render o pouquinho que eu tenho. Como disse minha amiga Bruna, um dia eu abro o app de novo e PA: tô rica.</p>
+                            <p>Eu uso o Neon pra render o pouquinho que eu tenho. Como disse minha amiga Bruna, um dia
+                                eu abro o app de novo e PA: tô rica.</p>
                         </div>
                     </div>
-    
+
                     <div class="swiper-slide">
                         <div class="card-depoimento">
                             <div class="user">
                                 <strong>@mzltweet</strong>
                                 <img src="images/icon-twiiter.svg" alt="Icone do Twitter">
                             </div>
-                            <p>Só por ter um cartão virtual com bloqueio fácil no app, já ganha e muito na segurançã pro cliente.</p>
+                            <p>Só por ter um cartão virtual com bloqueio fácil no app, já ganha e muito na segurançã pro
+                                cliente.</p>
                         </div>
                     </div>
                 </div>
@@ -212,7 +224,7 @@
 
     <section class="s-conta-digital">
         <div class="container">
-            <div class="text">
+            <div class="text" data-aos="fade-right">
                 <h2><span>Aproveite</span>Domine o seu dinheiro com uma conta 100% digital</h2>
                 <ul>
                     <li>
@@ -246,14 +258,14 @@
                 <button class="btn-primary">Abra sua conta digital</button>
             </div>
             <div class="image">
-                    <img src="./images/mockup-01.svg" class="mockup01">
-                    <img src="./images/mockup-02.svg" class="mockup02">
-                    <img src="./images/circle-conta-digital.svg" class="circle">
+                <img src="./images/mockup-01.svg" class="mockup01" data-aos="fade-up">
+                <img src="./images/mockup-02.svg" class="mockup02" data-aos="fade-down">
+                <img src="./images/circle-conta-digital.svg" class="circle" data-aos="zoom-in">
             </div>
         </div>
     </section>
 
-    <!-- <footer>
+    <footer>
         <div class="container">
             <div class="top">
                 <img src="./images/logo.svg" alt="">
@@ -275,6 +287,12 @@
                         <li>
                             <a href="">
                                 <img src="./images/facebook.svg" alt="">
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="">
+                                <img src="./images/instagram.svg" alt="">
                             </a>
                         </li>
 
@@ -365,45 +383,56 @@
                     😀
                 </div>
                 <p>
-                    Oi! Leu até aqui? Você se preocupa com os mínimos detalhes, mesmo. A gente também. Por isso o time Neon está sempre trabalhando para fazer a conta digital perfeita para você ; )
+                    Oi! Leu até aqui? Você se preocupa com os mínimos detalhes, mesmo. A gente também. Por isso o time
+                    Neon está sempre trabalhando para fazer a conta digital perfeita para você ; )
                 </p>
             </div>
         </div>
-    </footer> -->
-    
-    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    </footer>
 
-    <script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+        <script>
         var swiper = new Swiper(".slide-depoimentos", {
-          slidesPerView: 3,
-          spaceBetween: 32,
-          pagination: {
-            el: ".s-depoimentos .top .swiper-pagination",
-            clickable: true,
-          },
-          breakpoints: {
-            280: {
-                slidesPerView: 1,
-                spaceBetween: 16,
+            slidesPerView: 3,
+            spaceBetween: 32,
+            pagination: {
+                el: ".s-depoimentos .top .swiper-pagination",
+                clickable: true,
             },
-            320: {
-                slidesPerView: 1.2,
-                spaceBetween: 16,
-            },
-            520: {
-                slidesPerView: 2,
-                spaceBetween: 16,
-            },
-            800: {
-                slidesPerView: 2.5,
-                spaceBetween: 16,
-            },
-            1200: {
-                slidesPerView: 3,
-                spaceBetween: 32,
+            breakpoints: {
+                280: {
+                    slidesPerView: 1,
+                    spaceBetween: 16,
+                },
+                320: {
+                    slidesPerView: 1.2,
+                    spaceBetween: 16,
+                },
+                520: {
+                    slidesPerView: 2,
+                    spaceBetween: 16,
+                },
+                800: {
+                    slidesPerView: 2.5,
+                    spaceBetween: 16,
+                },
+                1200: {
+                    slidesPerView: 3,
+                    spaceBetween: 32,
+                }
             }
-          }
         });
-      </script>
+        </script>
+
+        <script>
+            AOS.init({
+                duration: 1000,
+                once: true,
+            });
+        </script>
+
 </body>
+
 </html>
